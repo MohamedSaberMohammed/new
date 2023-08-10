@@ -18,9 +18,9 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap;
+  flex-wrap: wrap;
   min-height: 70px;
-  padding: 0 20px; */
+  padding: 0 20px;
 }
 
 #header h2{font-size: 2rem;}
@@ -38,11 +38,6 @@ body{
   border: 1px solid lightgray;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  /* -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  transition: all 0.30s ease-in-out; */
 }
 
 .user_input input:focus{
@@ -85,13 +80,6 @@ body{
   font-size: 1rem;
   background-color: white;
   border: 1px solid lightgray;
-  /* text-transform: uppercase;
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  transition: all 0.30s ease-in-out;
-} */
 }
 
 .item:hover{
